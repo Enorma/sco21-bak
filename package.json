@@ -1,0 +1,30 @@
+{
+    "name": "sco21",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Enorma/sco21-bak.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Enorma/sco21-bak/issues"
+    },
+    "homepage": "https://github.com/Enorma/sco21-bak#readme",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.12.3",
+        "mongoose-beautiful-unique-validation": "^7.1.1",
+        "nodemailer": "^6.5.0"
+    }
+}
